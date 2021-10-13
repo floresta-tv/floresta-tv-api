@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_noticias",
+  "info": {
+    "name": "Página Notícias"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "noticias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "noticias-page.noticia"
+    }
+  }
+}
