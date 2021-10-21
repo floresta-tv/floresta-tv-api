@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "pagina_noticias",
+  "collectionName": "pagina_marco_temporals",
   "info": {
-    "name": "Página Notícias",
+    "name": "Página Marco Ancestral",
     "description": ""
   },
   "options": {
@@ -11,5 +11,9 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
 }

@@ -1,8 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "equipe_pages",
+  "kind": "collectionType",
+  "collectionName": "integrantes",
   "info": {
-    "name": "Página Blog",
+    "name": "Integrante",
     "description": ""
   },
   "options": {
@@ -10,20 +10,11 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "content": {
       "type": "component",
       "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
       "component": "equipe-page.equipe-person-card"
     }
   }

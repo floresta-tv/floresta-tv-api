@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-voluntariado",
+      "handler": "pagina-voluntariado.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-voluntariado",
+      "handler": "pagina-voluntariado.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-voluntariado",
+      "handler": "pagina-voluntariado.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

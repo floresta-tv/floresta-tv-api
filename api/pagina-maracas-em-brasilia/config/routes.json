@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-maracas-em-brasilia",
+      "handler": "pagina-maracas-em-brasilia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-maracas-em-brasilia",
+      "handler": "pagina-maracas-em-brasilia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-maracas-em-brasilia",
+      "handler": "pagina-maracas-em-brasilia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

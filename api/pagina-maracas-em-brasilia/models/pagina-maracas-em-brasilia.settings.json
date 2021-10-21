@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "pagina_noticias",
+  "collectionName": "pagina_maracas_em_brasilias",
   "info": {
-    "name": "Página Notícias",
-    "description": ""
+    "name": "Página Maracás em Brasilía"
   },
   "options": {
     "increments": true,
@@ -11,5 +10,9 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
 }

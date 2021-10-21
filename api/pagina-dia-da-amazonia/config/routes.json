@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-dia-da-amazonia",
+      "handler": "pagina-dia-da-amazonia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-dia-da-amazonia",
+      "handler": "pagina-dia-da-amazonia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-dia-da-amazonia",
+      "handler": "pagina-dia-da-amazonia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

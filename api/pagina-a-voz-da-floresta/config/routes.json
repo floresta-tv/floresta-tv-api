@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-a-voz-da-floresta",
+      "handler": "pagina-a-voz-da-floresta.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-a-voz-da-floresta",
+      "handler": "pagina-a-voz-da-floresta.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-a-voz-da-floresta",
+      "handler": "pagina-a-voz-da-floresta.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

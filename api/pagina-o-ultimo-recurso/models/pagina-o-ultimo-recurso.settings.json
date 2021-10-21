@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "pagina_noticias",
+  "collectionName": "pagina_o_ultimo_recursos",
   "info": {
-    "name": "Página Notícias",
-    "description": ""
+    "name": "Página O Ultimo Recurso"
   },
   "options": {
     "increments": true,
@@ -11,5 +10,9 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
 }

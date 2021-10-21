@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-marco-temporal",
+      "handler": "pagina-marco-temporal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-marco-temporal",
+      "handler": "pagina-marco-temporal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-marco-temporal",
+      "handler": "pagina-marco-temporal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

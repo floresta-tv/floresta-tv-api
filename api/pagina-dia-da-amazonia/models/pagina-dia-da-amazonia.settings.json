@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "pagina_noticias",
+  "collectionName": "pagina_dia_da_amazonias",
   "info": {
-    "name": "Página Notícias",
-    "description": ""
+    "name": "Página Dia da Amazônia"
   },
   "options": {
     "increments": true,
@@ -11,5 +10,9 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
 }
