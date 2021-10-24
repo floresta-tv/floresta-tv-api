@@ -2,7 +2,8 @@
   "collectionName": "equipe-person",
   "info": {
     "name": "equipe-person-card",
-    "icon": "address-card"
+    "icon": "address-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -35,6 +36,21 @@
     },
     "priority": {
       "type": "integer"
+    },
+    "facebook_url": {
+      "type": "string"
+    },
+    "medium_url": {
+      "type": "string"
+    },
+    "instagram_url": {
+      "type": "string"
+    },
+    "website_url": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
     }
   }
 }

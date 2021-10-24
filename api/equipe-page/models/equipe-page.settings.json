@@ -16,15 +16,13 @@
     }
   },
   "attributes": {
-    "content": {
-      "type": "component",
-      "repeatable": true,
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "equipe-page.equipe-person-card"
+      "type": "string"
     }
   }
 }
