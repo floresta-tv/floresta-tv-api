@@ -36,7 +36,9 @@
       "type": "date"
     },
     "description": {
-      "type": "text"
+      "type": "string",
+      "required": true,
+      "maxLength": 90
     },
     "body": {
       "type": "richtext"
