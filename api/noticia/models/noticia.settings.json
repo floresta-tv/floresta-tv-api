@@ -12,10 +12,34 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "content": {
-      "type": "component",
-      "repeatable": false,
-      "component": "noticias-page.noticia"
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "date": {
+      "required": true,
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
+    },
+    "body": {
+      "type": "richtext"
     }
   }
 }

@@ -11,11 +11,5 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {
-    "content": {
-      "type": "component",
-      "repeatable": true,
-      "component": "equipe-page.equipe-person-card"
-    }
-  }
+  "attributes": {}
 }
