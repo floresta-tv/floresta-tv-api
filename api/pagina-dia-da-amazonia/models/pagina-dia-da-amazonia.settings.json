@@ -2,17 +2,27 @@
   "kind": "singleType",
   "collectionName": "pagina_dia_da_amazonias",
   "info": {
-    "name": "Página Dia da Amazônia"
+    "name": "Página Dia da Amazônia",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
