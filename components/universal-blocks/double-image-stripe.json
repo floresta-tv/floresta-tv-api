@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_universal_blocks_double_image_stripes",
+  "info": {
+    "name": "DoubleImageStripe",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "image_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "image_1_desc": {
+      "type": "string"
+    },
+    "image_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_universal_blocks_strip_texts",
+  "info": {
+    "name": "StripText",
+    "icon": "scroll"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "richtext"
+    }
+  }
+}

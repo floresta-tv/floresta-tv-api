@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_universal_blocks_video_blocks",
+  "info": {
+    "name": "VideoBlock",
+    "icon": "camera-retro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "video_id": {
+      "type": "string"
+    },
+    "video_description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_universal_blocks_double_images",
+  "info": {
+    "name": "DoubleImage",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "first_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "first_image_alt": {
+      "type": "string"
+    },
+    "second_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "second_image_alt": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

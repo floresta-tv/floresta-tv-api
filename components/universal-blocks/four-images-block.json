@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_universal_blocks_four_images_blocks",
+  "info": {
+    "name": "FourImagesBlock",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "image_1_description": {
+      "type": "richtext"
+    },
+    "image_2_description": {
+      "type": "richtext"
+    },
+    "image_3_description": {
+      "type": "richtext"
+    },
+    "image_4_description": {
+      "type": "richtext"
+    },
+    "image_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "image_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "image_3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "image_4": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

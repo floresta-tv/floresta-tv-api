@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "page_dia_da_amazonia",
+  "collectionName": "page-ultimo-recurso",
   "info": {
-    "name": "Página Dia da Amazônia",
+    "name": "Página Ultimo Recurso",
     "description": ""
   },
   "options": {
@@ -34,6 +34,126 @@
       },
       "component": "universal-blocks.fullscreen-banner"
     },
+    "VideoDocumentario": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.video-block"
+    },
+    "StripText": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.strip-text"
+    },
+    "QuoteConstituicao": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.strip-text-link"
+    },
+    "FourImagesBlock": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.four-images-block"
+    },
+    "GotaDaAgua": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.text-banner"
+    },
+    "AlessandreVieira": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.simple-quote"
+    },
+    "SaidaBolsonaro": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.simple-quote"
+    },
+    "ArrozComFuzil": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.image-text"
+    },
+    "ArrozComFuzil2": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.image-desc"
+    },
+    "Anamatra": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.simple-quote"
+    },
+    "ArtigoMatilde": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.image-text"
+    },
+    "CarlosAyres": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.simple-quote"
+    },
     "ContagemProgressiva": {
       "type": "component",
       "repeatable": false,
@@ -44,53 +164,7 @@
       },
       "component": "universal-blocks.contagem-progressiva"
     },
-    "VideoHistoria": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "universal-blocks.video-block"
-    },
-    "large_content_3213": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "universal-blocks.large-content-3213"
-    },
-    "DoubleImageStripe": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "universal-blocks.double-image-stripe"
-    },
-    "paragraph_3": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
-    "quote": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
-    "ImageUrucum": {
+    "FotoPB": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -100,43 +174,15 @@
       },
       "component": "universal-blocks.image-text"
     },
-    "DeclaracaoRafael": {
-      "type": "component",
-      "repeatable": false,
+    "Credits": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "universal-blocks.simple-quote"
+      "type": "richtext"
     },
-    "DevastacaoImage": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "universal-blocks.image-text"
-    },
-    "button_right_text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "button_left_text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "footer_links": {
+    "FooterLinks": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {

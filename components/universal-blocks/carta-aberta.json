@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_universal_blocks_carta_abertas",
+  "info": {
+    "name": "CartaAberta",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "box_title": {
+      "type": "string"
+    },
+    "box_content": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    }
+  }
+}

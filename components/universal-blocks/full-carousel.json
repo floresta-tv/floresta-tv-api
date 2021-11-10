@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_universal_blocks_full_carousels",
+  "info": {
+    "name": "FullCarousel",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FullCarouselItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "universal-blocks.full-carousel-item"
+    }
+  }
+}

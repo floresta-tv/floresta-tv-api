@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_universal_blocks_text_banners",
+  "info": {
+    "name": "TextBanner",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

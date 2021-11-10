@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-marcha-mulheres-indigenas",
+      "handler": "pagina-marcha-mulheres-indigenas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-marcha-mulheres-indigenas",
+      "handler": "pagina-marcha-mulheres-indigenas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-marcha-mulheres-indigenas",
+      "handler": "pagina-marcha-mulheres-indigenas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_universal_blocks_simple_quotes",
+  "info": {
+    "name": "SimpleQuote",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

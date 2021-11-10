@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "common",
+  "info": {
+    "name": "Common",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "medium_url": {
+      "type": "string"
+    },
+    "instagram_url": {
+      "type": "string"
+    },
+    "youtube_url": {
+      "type": "string"
+    },
+    "discord_url": {
+      "type": "string"
+    },
+    "linkedin_url": {
+      "type": "string"
+    }
+  }
+}

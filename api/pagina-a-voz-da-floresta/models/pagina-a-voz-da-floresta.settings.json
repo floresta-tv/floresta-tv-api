@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "pagina_a_voz_da_florestas",
+  "collectionName": "page_voz_da_floresta",
   "info": {
     "name": "Página A Voz da Floresta",
     "description": ""
@@ -23,6 +23,106 @@
           "localized": true
         }
       }
+    },
+    "HomeCarrousel": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.full-carousel"
+    },
+    "VideoDocumentario": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.video-block"
+    },
+    "ContagemProgressiva": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.contagem-progressiva"
+    },
+    "CartaAberta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.carta-aberta"
+    },
+    "AutonomiaBlock": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.hero-block"
+    },
+    "VideoMapu": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.video-block"
+    },
+    "VideoAmazonia": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.video-block"
+    },
+    "ProtecaoCultura": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.double-image"
+    },
+    "footer_links": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.link"
+    },
+    "BibliotecaImage": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.image-text"
     }
   }
 }

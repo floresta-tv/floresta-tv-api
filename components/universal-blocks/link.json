@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_universal_blocks_links",
+  "info": {
+    "name": "Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    }
+  }
+}

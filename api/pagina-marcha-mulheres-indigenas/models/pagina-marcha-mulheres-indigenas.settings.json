@@ -1,0 +1,92 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_marcha_mulheres_indigenas",
+  "info": {
+    "name": "Página Marcha Mulheres Indígenas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomeBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.full-carousel-item"
+    },
+    "ContagemProgressiva": {
+      "type": "component",
+      "repeatable": true,
+      "component": "universal-blocks.contagem-progressiva"
+    },
+    "VideoDocumentario": {
+      "type": "component",
+      "repeatable": true,
+      "component": "universal-blocks.video-block"
+    },
+    "title_2": {
+      "type": "text"
+    },
+    "paragraph_2": {
+      "type": "text"
+    },
+    "image_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.image-desc"
+    },
+    "image_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.image-desc"
+    },
+    "image_3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.image-desc"
+    },
+    "image_4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.image-desc"
+    },
+    "paragraph_3": {
+      "type": "richtext"
+    },
+    "SinalVerde": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.simple-quote"
+    },
+    "paragraph_4": {
+      "type": "richtext"
+    },
+    "image_5": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.image-desc"
+    },
+    "image_6": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.image-desc"
+    },
+    "credits": {
+      "type": "richtext"
+    },
+    "button_left_text": {
+      "type": "string"
+    },
+    "button_right_text": {
+      "type": "string"
+    },
+    "footer_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "universal-blocks.link"
+    }
+  }
+}

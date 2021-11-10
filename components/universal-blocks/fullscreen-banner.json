@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_universal_blocks_fullscreen_banners",
+  "info": {
+    "name": "FullscreenBanner",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "first_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.button"
+    },
+    "second_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.button"
+    },
+    "terc_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "universal-blocks.button"
+    }
+  }
+}

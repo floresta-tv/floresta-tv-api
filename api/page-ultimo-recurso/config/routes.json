@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/page-ultimo-recurso",
+      "handler": "page-ultimo-recurso.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/page-ultimo-recurso",
+      "handler": "page-ultimo-recurso.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/page-ultimo-recurso",
+      "handler": "page-ultimo-recurso.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

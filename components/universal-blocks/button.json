@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_universal_blocks_buttons",
+  "info": {
+    "name": "button",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

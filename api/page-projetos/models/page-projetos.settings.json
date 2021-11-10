@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "page_contato",
+  "collectionName": "page-projetos",
   "info": {
-    "name": "Página Contato",
+    "name": "Página Projetos",
     "description": ""
   },
   "options": {
@@ -17,14 +17,14 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
     },
-    "BannerHeader": {
+    "PageHeader": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -32,23 +32,17 @@
           "localized": true
         }
       },
-      "component": "universal-blocks.fullscreen-banner"
+      "component": "universal-blocks.page-header"
     },
-    "button_text": {
+    "ProjetoCard": {
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string"
-    },
-    "button_href": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+      "component": "universal-blocks.projeto-card"
     },
     "footer_links": {
       "type": "component",

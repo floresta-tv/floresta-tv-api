@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_universal_blocks_contagem_progressivas",
+  "info": {
+    "name": "ContagemProgressiva",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "days": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "string"
+    },
+    "minutes": {
+      "type": "string"
+    },
+    "seconds": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

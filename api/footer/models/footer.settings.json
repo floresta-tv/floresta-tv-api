@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer",
+  "info": {
+    "name": "Footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "outras_paginas_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "universal-blocks.link",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "outros_projetos_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "universal-blocks.link",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "copyright": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

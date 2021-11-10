@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_universal_blocks_strip_text_links",
+  "info": {
+    "name": "StripTextLink",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "link_text": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    }
+  }
+}

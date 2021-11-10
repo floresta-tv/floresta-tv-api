@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_universal_blocks_video_block_hors",
+  "info": {
+    "name": "VideoBlockHor",
+    "icon": "file-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "video_id": {
+      "type": "string"
+    }
+  }
+}
