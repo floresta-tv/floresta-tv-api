@@ -123,6 +123,16 @@
         }
       },
       "component": "universal-blocks.image-text"
+    },
+    "ChiefPhill": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.video-block"
     }
   }
 }
