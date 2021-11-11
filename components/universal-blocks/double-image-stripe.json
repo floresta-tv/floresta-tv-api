@@ -2,7 +2,8 @@
   "collectionName": "components_universal_blocks_double_image_stripes",
   "info": {
     "name": "DoubleImageStripe",
-    "icon": "images"
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -28,6 +29,9 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "image_2_desc": {
+      "type": "string"
     }
   }
 }
