@@ -10,83 +10,177 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "HomeBanner": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.full-carousel-item"
+      "component": "universal-blocks.full-carousel-item",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "ContagemProgressiva": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.contagem-progressiva"
+      "component": "universal-blocks.contagem-progressiva",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "VideoDocumentario": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.video-block"
+      "component": "universal-blocks.video-block",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "title_2": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "paragraph_2": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image_1": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.image-desc"
+      "component": "universal-blocks.image-desc",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image_2": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.image-desc"
+      "component": "universal-blocks.image-desc",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image_3": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.image-desc"
+      "component": "universal-blocks.image-desc",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image_4": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.image-desc"
+      "component": "universal-blocks.image-desc",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "paragraph_3": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "SinalVerde": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.simple-quote"
+      "component": "universal-blocks.simple-quote",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "paragraph_4": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image_5": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.image-desc"
+      "component": "universal-blocks.image-desc",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image_6": {
       "type": "component",
       "repeatable": false,
-      "component": "universal-blocks.image-desc"
+      "component": "universal-blocks.image-desc",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "credits": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "button_left_text": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "button_right_text": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "footer_links": {
       "type": "component",
       "repeatable": true,
-      "component": "universal-blocks.link"
+      "component": "universal-blocks.link",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
