@@ -19,12 +19,12 @@
     },
     "ContagemProgressiva": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "universal-blocks.contagem-progressiva"
     },
     "VideoDocumentario": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "universal-blocks.video-block"
     },
     "title_2": {
