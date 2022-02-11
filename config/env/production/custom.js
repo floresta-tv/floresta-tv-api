@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-    netlifyWebhook: env("VERCEL_WEBHOOK"),
-  });
+  vercelWebhook: env("VERCEL_WEBHOOK"),
+});
