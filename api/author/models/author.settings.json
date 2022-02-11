@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "integrantes",
+  "collectionName": "autores",
   "info": {
-    "name": "Integrante",
+    "name": "Autor",
     "description": ""
   },
   "options": {
@@ -48,46 +48,6 @@
         }
       }
     },
-    "facebook_url": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "instagram_url": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "medium_url": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "twitter_url": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "website_url": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "ocuppation": {
       "pluginOptions": {
         "i18n": {
@@ -97,16 +57,39 @@
       "type": "string",
       "required": true
     },
-    "color_primary": {
+    "facebook_url": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "color_secondary": {
+    "instagram_url": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "medium_url": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "twitter_url": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "website_url": {
       "pluginOptions": {
         "i18n": {
           "localized": true

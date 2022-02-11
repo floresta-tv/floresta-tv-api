@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_universal_blocks_seos",
+  "info": {
+    "name": "SEO",
+    "icon": "globe-africa"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
