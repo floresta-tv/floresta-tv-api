@@ -95,6 +95,16 @@
         }
       },
       "type": "text"
+    },
+    "integrantes": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "universal-blocks.integrante"
     }
   }
 }

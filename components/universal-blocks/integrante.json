@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_universal_blocks_integrantes",
+  "info": {
+    "name": "integrante",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "integrante": {
+      "model": "integrante"
+    }
+  }
+}

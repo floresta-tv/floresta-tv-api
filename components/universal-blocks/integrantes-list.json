@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_universal_blocks_integrantes_lists",
+  "info": {
+    "name": "integrantes-list",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "autors": {
+      "collection": "author"
+    }
+  }
+}
