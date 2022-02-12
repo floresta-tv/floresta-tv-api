@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/integrantes",
+      "handler": "integrante.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/integrantes/count",
+      "handler": "integrante.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/integrantes/:id",
+      "handler": "integrante.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/integrantes",
+      "handler": "integrante.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/integrantes/:id",
+      "handler": "integrante.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/integrantes/:id",
+      "handler": "integrante.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
